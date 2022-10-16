@@ -1,24 +1,14 @@
-import logo from './logo.svg';
+import React,{createContext} from 'react'
 import './App.css';
-
+import useCustomfetch from './components/customfetch/useCustomfetch';
+import Links from './components/links/Links';
+export const myContext = createContext('')
 function App() {
+const[data]=useCustomfetch('http://localhost:4000/movies')
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <myContext.Provider value={data} className="App">
+      <Links/>
+    </myContext.Provider>
   );
 }
 

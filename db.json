@@ -1,0 +1,60 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "name": "the italian job",
+      "url": "/videos/video1.mp4",
+      "image": "/images/photo1.jpg",
+      "actors": [
+        "jason statham,spencer"
+      ],
+      "rating": 6,
+      "genre": "action",
+      "country": "usa",
+      "hd": "hd",
+      "description": "four friend gansters steals gold from italy then one betrays them kills their leader and takes the whole gold"
+    },
+    {
+      "id": 2,
+      "name": "the three idiots",
+      "url": "/videos/video2.mp4",
+      "image": "/images/photo2.jpg",
+      "actors": [
+        "jason statham,spencer"
+      ],
+      "genre": "comedy",
+      "country": "india",
+      "rating": 7,
+      "hd": "hd",
+      "description": "three friends  who lives their university lives so simple and funny"
+    },
+    {
+      "id": 3,
+      "name": "gun on rail",
+      "url": "/videos/video3.mp4",
+      "image": "/images/photo3.jpg",
+      "actors": [
+        "angelina joe,holland"
+      ],
+      "genre": "action",
+      "country": "russia",
+      "rating": 5,
+      "hd": "hd",
+      "description": "a mafia move full of gun shooting"
+    },
+    {
+      "id": 4,
+      "name": "shaolini worriors",
+      "url": "/videos/video4.mp4",
+      "image": "/images/photo4.jpg",
+      "actors": [
+        "jacky chan,jet li"
+      ],
+      "rating": 9,
+      "genre": "kung fu",
+      "country": "china",
+      "hd": "hd",
+      "description": "the duo are get in task of procteting the shaolini temple againt the blade worriors who are trying to take over the temple"
+    }
+  ]
+}
