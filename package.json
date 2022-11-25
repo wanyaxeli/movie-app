@@ -1,5 +1,6 @@
 {
   "name": "movie-app",
+  "homepage": "http:wanyaxeli.github.io/movie-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,6 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "fakeDB": "json-server --w db.json  --port 4000 ",
     "build": "react-scripts build",
     "test": "react-scripts test",
